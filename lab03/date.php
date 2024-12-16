@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<h3>วันที่ชำระเงินเดือน:</h3>";
         echo "{$result['payday']} {$result['monthName']} {$result['year']}";
     } else {
-        echo "<h3 style='color: red;'>กรุณากรอกเดือน (1-12) และปี พ.ศ. ให้ถูกต้อง</h3>";
+        echo "กรุณากรอกเดือน (1-12) และปี พ.ศ. ให้ถูกต้อง";
     }
 }
 
