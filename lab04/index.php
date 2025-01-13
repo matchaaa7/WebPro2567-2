@@ -2,29 +2,39 @@
 
 $classRoomData = [
         "Mon" => [
+            9 => "Enterpreneurship Knowledge Sharing",
+            10 => "Enterpreneurship Knowledge Sharing",
+            11 => "Enterpreneurship Knowledge Sharing",
         13 => "Data Analytic",
         14 => "Data Analytic",
         15 => "Data Analytic",
         16 => "Data Analytic",
         ], 
         "Tue" => [
-            13=>"Work Integrated Knowledge Sharing",
-            14=>"Work Integrated Knowledge Sharing",
-            15=>"Work Integrated Knowledge Sharing",
-            16=>"Work Integrated Knowledge Sharing",
+           
         ],
         "Wed" =>[
             9 => "Enterpreneurship Knowledge Sharing",
             10 => "Enterpreneurship Knowledge Sharing",
             11 => "Enterpreneurship Knowledge Sharing",
+            13 => "Data Analytic",
+        14 => "Data Analytic",
+        15 => "Data Analytic",
+        16 => "Data Analytic"
         ],
-        "Thu" => [],
+        "Thu" => [9 => "Enterpreneurship Knowledge Sharing",
+        10 => "Enterpreneurship Knowledge Sharing",
+        11 => "Enterpreneurship Knowledge Sharing",],
 
         "Fri" => [
-            8 => "Artificial Intelligence",
+            
             9 => "Artificial Intelligence",
             10 => "Artificial Intelligence",
             11 => "Artificial Intelligence",
+            13 => "Data Analytic",
+        14 => "Data Analytic",
+        15 => "Data Analytic",
+        16 => "Data Analytic",
         ],
 
         "Sat" => [],
