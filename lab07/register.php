@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $lastname = $_POST['lastname'];
 
    
-    $message = register($conn, $username, $password, $firstname, $lastname);
+   
 }
 ?>
 

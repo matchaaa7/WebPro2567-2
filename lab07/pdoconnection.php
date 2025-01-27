@@ -51,10 +51,10 @@ function logout() {
 
 function register($conn, $username, $password, $firstname, $lastname) {
    
-    $sql_insert = "INSERT INTO user (username, password, firstname, lastname) 
+    $sql = "INSERT INTO user (username, password, firstname, lastname) 
                    VALUES (:username, :password, :firstname, :lastname)";
-    $stm_insert = $conn->prepare($sql_insert);
-    $stm_insert->execute([
+    $stm = $conn->prepare($sql);
+    $stm->execute([
         "username" => $username,
         "password" => $password, 
         "firstname" => $firstname,
