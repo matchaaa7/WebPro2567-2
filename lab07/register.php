@@ -8,8 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
 
-   
-   
+    // เรียกใช้ฟังก์ชัน register
+    $message = register($conn, $username, $password, $firstname, $lastname);
 }
 ?>
 
